@@ -5,8 +5,8 @@ SecurityTrails has an extremely robust API that can be used to enumerate subdoma
 
 Usage is pretty simple. First you need to register at securitytrails.com and get an API key. Next, all you have to do is run the command as follows:
 
-python strails_enumeration.py <target.com> <apikey> <output file>
-  
+  python3 strails_enumeration.py [target.com] [apikey] [outfile]
+
 This will write all of the enumerated subdomains to the specified output file and will be ready to be passed to other tools.
 
 Happy hunting!
